@@ -1,4 +1,5 @@
 export const Footer = () => {
+    //obtenemos el año actual
     const year = new Date().getFullYear();
   return (
     <footer className="w-100 bg-primary text-white py-3 mt-auto shadow-sm">
